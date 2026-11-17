@@ -223,3 +223,11 @@ main{position:relative;z-index:5}
 .music-fab:focus-visible{outline:3px solid #fff1c6;outline-offset:3px}
 .music-fab.compact{padding:0;width:44px}
 .music-fab.compact .music-label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* invitation + details combined */
+.invite:has(.glance){width:min(100%,640px)}
+.invite .glance{margin-top:20px}
+.invite .glance .detail-grid{margin-top:0}
+.invite .glance .dcard{background:rgba(10,14,38,.35)}
+.invite .glance .dcard{text-align:center}
+.invite .glance .dcard.wide .acts{justify-content:center}
